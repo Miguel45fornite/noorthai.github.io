@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoorthAI - Asistente de IA Oficial</title>
+    <meta name="description" content="NoorthAI: Asistente de inteligencia artificial oficial creado por Miguel, David e Iyan. Descarga gratis.">
+    <meta name="author" content="Miguel, David, Iyan">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(45deg, #fff, #f0f0f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .cta-button {
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3);
+        }
+        
+        /* Features */
+        .features {
+            background: white;
+            color: #333;
+            padding: 5rem 0;
+        }
+        
+        .features h2 {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Developers */
+        .developers {
+            padding: 4rem 0;
+            text-align: center;
+        }
+        
+        .dev-team {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .dev-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        
+        /* Warning */
+        .warning {
+            background: #ff6b6b;
+            padding: 2rem;
+            text-align: center;
+            margin: 2rem 0;
+            border-radius: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🤖 NoorthAI</div>
+            <div class="tagline">Asistente de IA - Creado por Miguel, David e Iyan</div>
+        </header>
+
+        <section class="hero">
+            <h1>Potencia tu Productividad con IA</h1>
+            <p>NoorthAI es tu asistente inteligente personal, diseñado para ayudarte en tareas complejas con respuestas rápidas y precisas.</p>
+            <a href="#download" class="cta-button">Descargar Gratis</a>
+        </section>
+
+        <section class="features">
+            <h2>¿Por Qué NoorthAI?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Ultra Rápido</h3>
+                    <p>Respuestas instantáneas gracias a nuestro motor optimizado</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Privado y Seguro</h3>
+                    <p>Tus conversaciones y datos siempre están protegidos</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Actualizaciones Constantes</h3>
+                    <p>Mejoras automáticas con nuevas funciones regularmente</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Preciso y Contextual</h3>
+                    <p>Entiende el contexto y proporciona respuestas relevantes</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="warning">
+            <h2>⚠️ Sitio Oficial NoorthAI</h2>
+            <p><strong>Este es el único sitio web oficial de NoorthAI.</strong></p>
+            <p>Desarrollado directamente por Miguel, David e Iyan.</p>
+            <p>No descargues desde fuentes no verificadas.</p>
+        </section>
+
+        <section class="developers">
+            <h2>Equipo de Desarrollo</h2>
+            <div class="dev-team">
+                <div class="dev-card">
+                    <h3>Miguel</h3>
+                    <p>Desarrollador Principal</p>
+                </div>
+                <div class="dev-card">
+                    <h3>David</h3>
+                    <p>Arquitecto de IA</p>
+                </div>
+                <div class="dev-card">
+                    <h3>Iyan</h3>
+                    <p>Diseñador y UX</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" style="text-align: center; padding: 4rem 0;">
+            <h2>Descarga NoorthAI</h2>
+            <p style="margin-bottom: 2rem;">Disponible para Windows, macOS y Linux</p>
+            <a href="https://github.com/tuusuario/noorthai/releases/latest" class="cta-button">
+                📥 Descargar Ahora
+            </a>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">
+                Versión actual: v1.0 | Última actualización: Enero 2025
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 NoorthAI. Creado con ❤️ por Miguel, David e Iyan.</p>
+            <p>📍 Sitio oficial: https://noorthai.github.io</p>
+        </footer>
+    </div>
+</body>
+</html>
